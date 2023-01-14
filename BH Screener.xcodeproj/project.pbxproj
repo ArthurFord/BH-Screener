@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		CE3A9B1D29521740009A773F /* BH_ScreenerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A9B1C29521740009A773F /* BH_ScreenerApp.swift */; };
-		CE3A9B1F29521740009A773F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A9B1E29521740009A773F /* ContentView.swift */; };
+		CE3A9B1F29521740009A773F /* CESDCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A9B1E29521740009A773F /* CESDCView.swift */; };
 		CE3A9B2129521742009A773F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A9B2029521742009A773F /* Assets.xcassets */; };
 		CE3A9B2429521742009A773F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A9B2329521742009A773F /* Preview Assets.xcassets */; };
+		CE56123F297032270074822B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56123E297032270074822B /* PrimaryButton.swift */; };
+		CE561242297036430074822B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE561241297036430074822B /* Extensions.swift */; };
+		CE561244297037360074822B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE561243297037360074822B /* QuestionView.swift */; };
+		CE5612462970383B0074822B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5612452970383B0074822B /* ProgressBar.swift */; };
+		CE56124929703AE90074822B /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56124829703AE90074822B /* Answer.swift */; };
+		CE56124B29703B200074822B /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56124A29703B200074822B /* AnswerRow.swift */; };
+		CE56124D29703EAC0074822B /* ScreeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56124C29703EAC0074822B /* ScreeningView.swift */; };
+		CE56124F29703FFF0074822B /* CESDCScreening.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56124E29703FFF0074822B /* CESDCScreening.swift */; };
+		CE5612512970413C0074822B /* CESDCQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5612502970413C0074822B /* CESDCQuestions.swift */; };
+		CE561253297046700074822B /* ScreeningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE561252297046700074822B /* ScreeningManager.swift */; };
+		CE5612562971F34D0074822B /* screeningContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5612542971F34D0074822B /* screeningContainer.xcdatamodeld */; };
+		CE56125C2972C7580074822B /* ResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56125B2972C7580074822B /* ResultsList.swift */; };
+		CE56125E2972D7970074822B /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56125D2972D7970074822B /* ChartView.swift */; };
+		CE5612602972EAC90074822B /* ResultRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56125F2972EAC90074822B /* ResultRowView.swift */; };
+		CE5612622972EEB50074822B /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5612612972EEB50074822B /* DisclaimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3A9B1929521740009A773F /* BH Screener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BH Screener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A9B1C29521740009A773F /* BH_ScreenerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BH_ScreenerApp.swift; sourceTree = "<group>"; };
-		CE3A9B1E29521740009A773F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE3A9B1E29521740009A773F /* CESDCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CESDCView.swift; sourceTree = "<group>"; };
 		CE3A9B2029521742009A773F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3A9B2329521742009A773F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE56123E297032270074822B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CE561241297036430074822B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE561243297037360074822B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		CE5612452970383B0074822B /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CE56124829703AE90074822B /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		CE56124A29703B200074822B /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		CE56124C29703EAC0074822B /* ScreeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningView.swift; sourceTree = "<group>"; };
+		CE56124E29703FFF0074822B /* CESDCScreening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CESDCScreening.swift; sourceTree = "<group>"; };
+		CE5612502970413C0074822B /* CESDCQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CESDCQuestions.swift; sourceTree = "<group>"; };
+		CE561252297046700074822B /* ScreeningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningManager.swift; sourceTree = "<group>"; };
+		CE5612552971F34D0074822B /* screeningContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = screeningContainer.xcdatamodel; sourceTree = "<group>"; };
+		CE56125B2972C7580074822B /* ResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsList.swift; sourceTree = "<group>"; };
+		CE56125D2972D7970074822B /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		CE56125F2972EAC90074822B /* ResultRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRowView.swift; sourceTree = "<group>"; };
+		CE5612612972EEB50074822B /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				CE3A9B1C29521740009A773F /* BH_ScreenerApp.swift */,
-				CE3A9B1E29521740009A773F /* ContentView.swift */,
+				CE56124729703AD50074822B /* Models */,
+				CE56123D2970320C0074822B /* Components */,
+				CE561240297032E60074822B /* Views */,
 				CE3A9B2029521742009A773F /* Assets.xcassets */,
 				CE3A9B2229521742009A773F /* Preview Content */,
+				CE561241297036430074822B /* Extensions.swift */,
+				CE561252297046700074822B /* ScreeningManager.swift */,
 			);
 			path = "BH Screener";
 			sourceTree = "<group>";
@@ -65,6 +99,41 @@
 				CE3A9B2329521742009A773F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE56123D2970320C0074822B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE56123E297032270074822B /* PrimaryButton.swift */,
+				CE5612452970383B0074822B /* ProgressBar.swift */,
+				CE56124A29703B200074822B /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE561240297032E60074822B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A9B1E29521740009A773F /* CESDCView.swift */,
+				CE561243297037360074822B /* QuestionView.swift */,
+				CE56124C29703EAC0074822B /* ScreeningView.swift */,
+				CE56125B2972C7580074822B /* ResultsList.swift */,
+				CE56125D2972D7970074822B /* ChartView.swift */,
+				CE56125F2972EAC90074822B /* ResultRowView.swift */,
+				CE5612612972EEB50074822B /* DisclaimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE56124729703AD50074822B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE56124829703AE90074822B /* Answer.swift */,
+				CE56124E29703FFF0074822B /* CESDCScreening.swift */,
+				CE5612502970413C0074822B /* CESDCQuestions.swift */,
+				CE5612542971F34D0074822B /* screeningContainer.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3A9B1F29521740009A773F /* ContentView.swift in Sources */,
+				CE5612602972EAC90074822B /* ResultRowView.swift in Sources */,
+				CE561244297037360074822B /* QuestionView.swift in Sources */,
+				CE56123F297032270074822B /* PrimaryButton.swift in Sources */,
+				CE56125C2972C7580074822B /* ResultsList.swift in Sources */,
+				CE56124F29703FFF0074822B /* CESDCScreening.swift in Sources */,
+				CE5612512970413C0074822B /* CESDCQuestions.swift in Sources */,
+				CE56124B29703B200074822B /* AnswerRow.swift in Sources */,
+				CE3A9B1F29521740009A773F /* CESDCView.swift in Sources */,
+				CE5612562971F34D0074822B /* screeningContainer.xcdatamodeld in Sources */,
+				CE56125E2972D7970074822B /* ChartView.swift in Sources */,
+				CE561253297046700074822B /* ScreeningManager.swift in Sources */,
+				CE56124929703AE90074822B /* Answer.swift in Sources */,
+				CE56124D29703EAC0074822B /* ScreeningView.swift in Sources */,
 				CE3A9B1D29521740009A773F /* BH_ScreenerApp.swift in Sources */,
+				CE5612622972EEB50074822B /* DisclaimerView.swift in Sources */,
+				CE5612462970383B0074822B /* ProgressBar.swift in Sources */,
+				CE561242297036430074822B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +354,12 @@
 				DEVELOPMENT_TEAM = SLB347Y94F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +367,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.arthurford.BH-Screener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +387,12 @@
 				DEVELOPMENT_TEAM = SLB347Y94F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +400,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.arthurford.BH-Screener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +431,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE5612542971F34D0074822B /* screeningContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE5612552971F34D0074822B /* screeningContainer.xcdatamodel */,
+			);
+			currentVersion = CE5612552971F34D0074822B /* screeningContainer.xcdatamodel */;
+			path = screeningContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE3A9B1129521740009A773F /* Project object */;
 }
