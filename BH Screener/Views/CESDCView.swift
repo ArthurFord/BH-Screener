@@ -52,6 +52,10 @@ struct CESDCView: View {
                 .edgesIgnoringSafeArea(.all)
                 .background(Color("BGColor"))
             .navigationBarBackButtonHidden()
+            .onAppear() {
+                screeningManager.fetchScreening()
+            }
+                
             }
         }
     }
